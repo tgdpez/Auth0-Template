@@ -1,6 +1,5 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import * as mq from "./styles/media-queries";
 import DashboardLayout from "./layouts/DashboardLayout";
 import DashboardView from "./views/DashboardView";
 import AccountView from "./views/AccountView";

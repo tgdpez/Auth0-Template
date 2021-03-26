@@ -1,5 +1,4 @@
 /** @jsxImportSource @emotion/react */
-import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const sideBar = {
@@ -31,16 +30,16 @@ const NavBar = (onMobileNavOpen, ...props) => {
               css={sideBar.navLink}
               className="nav-link active"
               aria-current="page"
-              href="/"
+              href="/app/dashboard"
             >
               <span data-feather="home"></span>
               Dashboard
             </a>
           </li>
           <li className="nav-item">
-            <a css={sideBar.navLink} className="nav-link" href="/">
+            <a css={sideBar.navLink} className="nav-link" href="/app/account">
               <span data-feather="file"></span>
-              Orders
+              Account
             </a>
           </li>
           <li className="nav-item">
@@ -50,7 +49,7 @@ const NavBar = (onMobileNavOpen, ...props) => {
             </a>
           </li>
           <li className="nav-item">
-            <a css={sideBar.navLink} className="nav-link" href="/">
+            <a css={sideBar.navLink} className="nav-link" href="/app/customers">
               <span data-feather="users"></span>
               Customers
             </a>

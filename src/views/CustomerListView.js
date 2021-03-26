@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import * as React from "react";
 
 const CustomerListView = () => {
   return (
